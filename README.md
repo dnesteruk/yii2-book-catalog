@@ -18,20 +18,20 @@
 3. At the output we get:<br>
     3.1 Viewing separately the pages of all books and authors.<br>
     3.2 On the authors page:<br>
-        -It should be possible to see all authors.<br>
-        -Sorting authors by last name.<br>
-        -Search (filter) by last name, first name.<br>
-        -Adding, editing implement in modal windows via ajax.<br>
-        -Removal.<br>
+        - It should be possible to see all authors.<br>
+        - Sorting authors by last name.<br>
+        - Search (filter) by last name, first name.<br>
+        - Adding, editing implement in modal windows via ajax.<br>
+        - Removal.<br>
     3.3 On the books page:<br>
-        -It should be possible to see all the books.<br>
-        -Sort books by title.<br>
-        -Search (filter) by title, author.<br>
-        -Adding, editing implement in modal windows via ajax.<br>
+        - It should be possible to see all the books.<br>
+        - Sort books by title.<br>
+        - Search (filter) by title, author.<br>
+        - Adding, editing implement in modal windows via ajax.<br>
         -Removal.<br>
     3.4 Make pagination 15 per page.<br>
 4. In the project, be sure to use:<br>
-    -Database (mysql).<br>
+    - Database (mysql).<br>
     - Create tables to implement through the mechanism of migrations.
     -Back-end use Yii2, Laravel or Symfony.
 
