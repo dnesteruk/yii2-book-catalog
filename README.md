@@ -3,6 +3,47 @@
     <br>
 </p>
 
+<p><strong>Task for PHP developer</strong></p>
+
+<p>
+1. Create a directory of books, with the possibility of CRUD. Each book must have:
+    1.1 Name. (Obligatory field)
+    1.2 Brief description. (Optional field)
+    1.3 Picture. (jpg or png, no more than 2 MB, must be saved in a separate folder and
+        have a unique filename)
+    1.4 Authors (Required field, there can be several authors for one book, must
+        be able to choose from a list of authors, which is created separately).
+    1.5 Date of publication of the book.
+2. The list of authors is created separately. It should also be possible to add
+    deletion and editing. Each author must have:
+    2.1 Surname (Required field, no shorter than 3 characters)
+    2.2 Name (Required, not empty)
+    2.3 Middle name (Optional)
+3. At the output we get:
+    3.1 Viewing separately the pages of all books and authors.
+    3.2 On the authors page:
+        -It should be possible to see all authors.
+        -Sorting authors by last name.
+        -Search (filter) by last name, first name.
+        -Adding, editing implement in modal windows via ajax.
+        -Removal.
+    3.3 On the books page:
+        -It should be possible to see all the books.
+        -Sort books by title.
+        -Search (filter) by title, author.
+        -Adding, editing implement in modal windows via ajax.
+        -Removal.
+    3.4 Make pagination 15 per page.
+4. In the project, be sure to use:
+    -Database (mysql).
+    - Create tables to implement through the mechanism of migrations.
+    -Back-end use Yii2, Laravel or Symfony.
+
+P.S. Visual design at the discretion of the performer.
+Provide a link to a repository with instructions for deploying the project.
+We give 3 days for the test, if you have any questions - write :)
+</p>
+
 <p>Демонстрационный пример каталога книг на фреймворке Yii2:<br>
     https://books.maze.sbs/<br>
     Данные для входа в административную панель (по умолчанию Yii2):<br>
