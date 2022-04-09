@@ -103,3 +103,14 @@ We give 3 days for the test, if you have any questions - write :)
 <p>
     Загрузите демонстрационные данные: <br>
     В корне проекта расположена папка backups, которая содержит dump базы данных и архив с демонстрационными изображениями. Распокуйте содержимое архива storage в папку web/storage.</p>
+
+<style>
+ol {
+   list-style: none;
+   counter-reset: li;
+}
+li:before {
+   counter-increment: li;
+   content: counters(li, ".") ". ";
+}
+</style>   
