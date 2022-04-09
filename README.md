@@ -1,6 +1,6 @@
 <p align="center">
     <h1 align="center">Creation of a book catalog in Yii2</h1>
-    <br>
+    <image src="screenshot.jpg" alt="Screenshot of the admin panel">
 </p>
 
 <h2>Task for PHP developer.</h2>
