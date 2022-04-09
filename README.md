@@ -5,36 +5,55 @@
 
 <p><strong>Task for PHP developer.</strong></p>
 <p>  
- 1. Create a directory of books, with the possibility of CRUD. Each book must have:<br> 
-    $nbsp; 1.1 Name.<br> 
-    1.2 Brief description. 
-    1.3 Picture. (jpg or png, no more than 2 MB, must be saved in a separate folder and have a unique filename)
-    1.4 Authors (Required field, there can be several authors for one book, must be able to choose from a list of authors, which is created separately).
-    1.5 Date of publication of the book.
- 2. The list of authors is created separately. It should also be possible to add deletion and editing. Each author must have:
-    2.1 Surname (Required field, no shorter than 3 characters)
-    2.2 Name (Required, not empty)
-    2.3 Middle name (Optional)
- 3. At the output we get:
-    3.1 Viewing separately the pages of all books and authors.
-    3.2 On the authors page:
-        - It should be possible to see all authors.
-        - Sorting authors by last name.
-        - Search (filter) by last name, first name.
-        - Adding, editing implement in modal windows via ajax.
-        - Removal.
-    3.3 On the books page:      
-	 - It should be possible to see all the books.
-	 - Sort books by title.
-	 - Search (filter) by title, author.
-	 - Adding, editing implement in modal windows via ajax.
-	 - Removal.
-	3.4 Make pagination 15 per page.
-4. In the project, be sure to use:
-- Database (mysql).
-- Create tables to implement through the mechanism of migrations.
-- Back-end use Yii2, Laravel or Symfony.
-
+<ol>
+			<li> Create a directory of books, with the possibility of CRUD. Each book must have:
+				<ol>
+					<li>1. Name. (Obligatory field)</li>
+					<li>2. Brief description. (Optional field)</li>
+					<li>3. Picture. (jpg or png, no more than 2 MB, must be saved in a separate folder and have a unique filename)</li>
+					<li>4. Authors (Required field, there can be several authors for one book, must be able to choose from a list of authors, which is created separately).</li>
+					<li>5. Date of publication of the book</li>
+				</ol>
+			</li>
+			<li> The list of authors is created separately. It should also be possible to add deletion and editing. Each author must have:
+				<ol>
+					<li>1. Surname (Required field, no shorter than 3 characters)</li>
+					<li>2. Name (Required, not empty)</li>
+					<li>3. Middle name (Optional)</li>
+				</ol>
+			</li>
+			<li> At the output we get:
+				<ol>
+					<li>1. Viewing separately the pages of all books and authors.</li>
+					<li>2. On the authors page:
+						<ul>
+							<li>It should be possible to see all authors.</li>
+							<li>Sorting authors by last name.</li>
+							<li>-Search (filter) by last name, first name.</li>
+							<li>Adding, editing implement in modal windows via ajax.</li>
+							<li>Removal.</li>
+						</ul>
+					</li>
+					<li>3. On the books page:
+						<ul>
+							<li>It should be possible to see all the books.</li>
+							<li>Sort books by title.</li>
+							<li>Search (filter) by title, author.</li>
+							<li>Adding, editing implement in modal windows via ajax.</li>
+							<li>Removal.</li>
+						</ul>
+					</li>
+					<li>4. Make pagination 15 per page.</li>
+				</ol>
+			</li>
+			<li> In the project, be sure to use:
+				<ol>
+					<li>1. Database (mysql).</li>
+					<li>2. Create tables to implement through the mechanism of migrations.</li>
+					<li>3. Back-end use Yii2, Laravel or Symfony.</li>
+				</ol>
+			</li>
+		</ol>
 P.S. Visual design at the discretion of the performer. Provide a link to a repository with instructions for deploying the project. We give 3 days for the test, if you have any questions - write :)
 </p>
 
