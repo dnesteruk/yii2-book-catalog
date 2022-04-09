@@ -6,6 +6,26 @@
 <p><strong>Task for PHP developer</strong></p>
 
 <p>
+    <ol>
+   <li>пункт</li>
+   <li>пункт
+      <ol>
+         <li>пункт</li>
+         <li>пункт</li>
+         <li>пункт
+            <ol>
+               <li>пункт</li>
+               <li>пункт</li>
+               <li>пункт</li>
+            </ol>
+         </li>
+         <li>пункт</li>
+      </ol>
+   </li>
+   <li>пункт</li>
+   <li>пункт</li>
+</ol>
+    
 1. Create a directory of books, with the possibility of CRUD. Each book must have:
     1.1 Name. (Obligatory field)
     1.2 Brief description. (Optional field)
