@@ -3,7 +3,7 @@
     <br>
 </p>
 
-<p><strong>Task for PHP developer.</strong></p>
+<h2>Task for PHP developer.</h2>
 <p>  
 <ol>
 			<li> <strong>Create a directory of books, with the possibility of CRUD. Each book must have:</strong>
