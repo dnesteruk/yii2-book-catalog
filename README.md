@@ -6,7 +6,7 @@
 <p><strong>Task for PHP developer.</strong></p>
 <p>  
 <ol>
-			<li> Create a directory of books, with the possibility of CRUD. Each book must have:
+			<li> <strong>Create a directory of books, with the possibility of CRUD. Each book must have:</strong>
 				<ol>
 					<li>Name. (Obligatory field)</li>
 					<li>Brief description. (Optional field)</li>
@@ -15,14 +15,14 @@
 					<li>Date of publication of the book</li>
 				</ol>
 			</li>
-			<li> The list of authors is created separately. It should also be possible to add deletion and editing. Each author must have:
+			<li> <strong>The list of authors is created separately. It should also be possible to add deletion and editing. Each author must have:</strong>
 				<ol>
 					<li>Surname (Required field, no shorter than 3 characters)</li>
 					<li>Name (Required, not empty)</li>
 					<li>Middle name (Optional)</li>
 				</ol>
 			</li>
-			<li> At the output we get:
+			<li> <strong>At the output we get:</strong>
 				<ol>
 					<li>Viewing separately the pages of all books and authors.</li>
 					<li>On the authors page:
@@ -46,7 +46,7 @@
 					<li>Make pagination 15 per page.</li>
 				</ol>
 			</li>
-			<li> In the project, be sure to use:
+			<li> <strong>In the project, be sure to use:</strong>
 				<ol>
 					<li>Database (mysql).</li>
 					<li>Create tables to implement through the mechanism of migrations.</li>
