@@ -5,9 +5,9 @@
 
 <p><strong>Task for PHP developer.</strong></p>
 <p>  
- 1. Create a directory of books, with the possibility of CRUD. Each book must have:
-    1.1 Name. (Obligatory field)
-    1.2 Brief description. (Optional field)
+ 1. Create a directory of books, with the possibility of CRUD. Each book must have:<br> 
+    $nbsp; 1.1 Name.<br> 
+    1.2 Brief description. 
     1.3 Picture. (jpg or png, no more than 2 MB, must be saved in a separate folder and have a unique filename)
     1.4 Authors (Required field, there can be several authors for one book, must be able to choose from a list of authors, which is created separately).
     1.5 Date of publication of the book.
