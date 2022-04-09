@@ -8,7 +8,7 @@
 <ol>
 			<li> <strong>Create a directory of books, with the possibility of CRUD. Each book must have:</strong>
 				<ol>
-					<li>Name. (Obligatory field)</li>
+					<li>Name. (Required field)</li>
 					<li>Brief description. (Optional field)</li>
 					<li>Picture. (jpg or png, no more than 2 MB, must be saved in a separate folder and have a unique filename)</li>
 					<li>Authors (Required field, there can be several authors for one book, must be able to choose from a list of authors, which is created separately).</li>
@@ -57,13 +57,12 @@
 P.S. Visual design at the discretion of the performer. Provide a link to a repository with instructions for deploying the project. We give 3 days for the test, if you have any questions - write :)
 </p>
 
-<p><strong>Solution of the task.</strong></p>
+<h2>Solution of the task.</h2>
 
-<p>Демонстрационный пример каталога книг на фреймворке Yii2:<br>
-    https://books.maze.sbs/<br>
-    Данные для входа в административную панель (по умолчанию Yii2):<br>
-    Логин: demo <br>
-    Пароль: demo
+<p>Demo: <a href="https://books.maze.sbs/">book catalog on the Yii2 framework</a>.<br>
+    Admin panel login details (default Yii2):<br>
+    Login: demo <br>
+    Password: demo
 </p>
 
 <p> В данном руководстве предполагается, что Git и Composer уже установлен. При необходимости ознакомиться с рекомендованными настройками веб сервера вы можете из [официальной документации Yii2](https://www.yiiframework.com/doc/guide/2.0/ru/start-installation).</p>
