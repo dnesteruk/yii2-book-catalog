@@ -8,18 +8,18 @@
 <ol>
 			<li> Create a directory of books, with the possibility of CRUD. Each book must have:
 				<ol>
-					<li>1. Name. (Obligatory field)</li>
-					<li>2. Brief description. (Optional field)</li>
-					<li>3. Picture. (jpg or png, no more than 2 MB, must be saved in a separate folder and have a unique filename)</li>
-					<li>4. Authors (Required field, there can be several authors for one book, must be able to choose from a list of authors, which is created separately).</li>
-					<li>5. Date of publication of the book</li>
+					<li>Name. (Obligatory field)</li>
+					<li>Brief description. (Optional field)</li>
+					<li>Picture. (jpg or png, no more than 2 MB, must be saved in a separate folder and have a unique filename)</li>
+					<li>Authors (Required field, there can be several authors for one book, must be able to choose from a list of authors, which is created separately).</li>
+					<li>Date of publication of the book</li>
 				</ol>
 			</li>
 			<li> The list of authors is created separately. It should also be possible to add deletion and editing. Each author must have:
 				<ol>
-					<li>1. Surname (Required field, no shorter than 3 characters)</li>
-					<li>2. Name (Required, not empty)</li>
-					<li>3. Middle name (Optional)</li>
+					<li>Surname (Required field, no shorter than 3 characters)</li>
+					<li>Name (Required, not empty)</li>
+					<li>Middle name (Optional)</li>
 				</ol>
 			</li>
 			<li> At the output we get:
@@ -48,9 +48,9 @@
 			</li>
 			<li> In the project, be sure to use:
 				<ol>
-					<li>1. Database (mysql).</li>
-					<li>2. Create tables to implement through the mechanism of migrations.</li>
-					<li>3. Back-end use Yii2, Laravel or Symfony.</li>
+					<li>Database (mysql).</li>
+					<li>Create tables to implement through the mechanism of migrations.</li>
+					<li>Back-end use Yii2, Laravel or Symfony.</li>
 				</ol>
 			</li>
 		</ol>
