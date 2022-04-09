@@ -24,8 +24,8 @@
 			</li>
 			<li> At the output we get:
 				<ol>
-					<li>1. Viewing separately the pages of all books and authors.</li>
-					<li>2. On the authors page:
+					<li>Viewing separately the pages of all books and authors.</li>
+					<li>On the authors page:
 						<ul>
 							<li>It should be possible to see all authors.</li>
 							<li>Sorting authors by last name.</li>
@@ -34,7 +34,7 @@
 							<li>Removal.</li>
 						</ul>
 					</li>
-					<li>3. On the books page:
+					<li>On the books page:
 						<ul>
 							<li>It should be possible to see all the books.</li>
 							<li>Sort books by title.</li>
@@ -43,7 +43,7 @@
 							<li>Removal.</li>
 						</ul>
 					</li>
-					<li>4. Make pagination 15 per page.</li>
+					<li>Make pagination 15 per page.</li>
 				</ol>
 			</li>
 			<li> In the project, be sure to use:
