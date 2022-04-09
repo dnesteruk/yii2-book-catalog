@@ -1,5 +1,5 @@
 <p align="center">
-    <h1 align="center">Демо-пример каталога книг</h1>
+    <h1 align="center">Creation of a book catalog in Yii2</h1>
     <br>
 </p>
 
