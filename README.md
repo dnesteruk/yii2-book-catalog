@@ -65,10 +65,9 @@ P.S. Visual design at the discretion of the performer. Provide a link to a repos
     Password: demo
 </p>
 
-<p> В данном руководстве предполагается, что Git и Composer уже установлен. При необходимости ознакомиться с рекомендованными настройками веб сервера вы можете из [официальной документации Yii2](https://www.yiiframework.com/doc/guide/2.0/ru/start-installation).</p>
+<strong>Installation.</strong>
 
-Установка
-------------
+<p>This guide assumes that Git and Composer are already installed. If necessary, you can familiarize yourself with the recommended web server settings from the [official Yii2 documentation](https://www.yiiframework.com/doc/guide/2.0/en/start-installation).</p>
 
 <pre>
     <code>
@@ -78,7 +77,7 @@ P.S. Visual design at the discretion of the performer. Provide a link to a repos
     </code>
 </pre>
 
-<p>Создайте базу данных и добавьте данные для доступа в файл <code>config/db.php</code>:</p>
+<p>Create a database and add access data to a file <code>config/db.php</code>:</p>
 <div class="highlight highlight-text-html-php"><pre><span class="pl-ent">&lt;?php</span>
 <span class="pl-k">return</span> [
     <span class="pl-s">'class'</span> =&gt; <span class="pl-s">'yii\db\Connection'</span>,
@@ -88,12 +87,13 @@ P.S. Visual design at the discretion of the performer. Provide a link to a repos
     <span class="pl-s">'charset'</span> =&gt; <span class="pl-s">'utf8'</span>,
 ];</pre></div>
 
-<p> Выполните миграции: </p>
+<p> Run the migrations: </p>
 <pre>
     <code>
         php yii migrate
     </code>
 </pre>
 <p>
-    Загрузите демонстрационные данные: <br>
-    В корне проекта расположена папка backups, которая содержит dump базы данных и архив с демонстрационными изображениями. Распокуйте содержимое архива storage в папку web/storage.</p>
+    Download demo data: <br>
+   At the root of the project is the backups folder, which contains a dump of the database and an archive with demo images. Unpack the contents of the storage archive into a folder web/storage.</p>
+<p>Ready to use)</p> 
